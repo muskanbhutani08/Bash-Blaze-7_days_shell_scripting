@@ -1,0 +1,43 @@
+DAY 1 OF Bash-Blaze-7 days of shell scripting
+
+TASK 1-  create a bash script with comments explaining what the script does.
+ANS- 
+#!/bin/bash
+#echo "welcome to Bash-Blaze-7 days of shell scripting"
+#echo "this is task1 all about adding comments in shell scripting"
+---------------------------------------------------------------------------
+TASK 2- create a bash script that uses echo to print a message of your choice.
+ANS-
+#!/bin/bash
+#echo "welcome to Day 1 of Bash-Blaze-7 days of shell scripting"
+------------------------------------------------------------------------------
+TASK 3-  create a bash script that declares variables and assigns values to them.
+ANS-
+#!/bin/bash
+echo "what is your name?"
+read name
+echo "My name is ${name}"
+------------------------------------------------------------------------------------
+TASK 4- Create a bash script that takes two variables (numbers) as input and prints their sum using those variables.
+ANS-
+#!/bin/bash
+
+echo "enter first num"
+read num1
+echo "enter second number"
+read num2
+
+sum=$((num1+num2))
+
+echo "Sum of 2 number is ${sum}"
+------------------------------------------------------------------------------------------------------
+TASK 5- create a bash script that utilizes at least three different built-in variables.
+ANS-
+echo "my bash is $BASH"
+echo "My home directory is $HOME"
+echo "My present working directory is $PWD"
+echo "hostname is $HOSTNAME"
+-------------------------------------------------------------------------------------
+TASK -6- create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
+ANS - Wildcards are special characters used to perform pattern matching when working with files
+ ls *.txt
